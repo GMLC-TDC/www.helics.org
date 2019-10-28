@@ -1,21 +1,17 @@
 <template>
   <div id="helics-logo">
-    <img src="../assets/logo.png"
-    height="100px"
-    width="100px"
-    >
+    <img src="../assets/logo.png" height="100px" width="100px" />
   </div>
 </template>
 
 <script>
-export default {
-}
+export default {};
 </script>
 
 <style>
 img {
-  max-width:120px;
-  max-height:100px;
+  max-width: 240px;
+  max-height: 200px;
   width: auto;
   height: auto;
 }
