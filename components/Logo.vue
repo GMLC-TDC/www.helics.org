@@ -10,8 +10,8 @@ export default {};
 
 <style>
 img {
-  max-width: 240px;
-  max-height: 200px;
+  max-width: 480px;
+  max-height: 400px;
   width: auto;
   height: auto;
 }

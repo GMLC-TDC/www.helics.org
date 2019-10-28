@@ -43,6 +43,7 @@ export default {
   */
   buildModules: [
     'bootstrap-vue/nuxt',
+    'qonfucius-nuxt-fontawesome',
   ],
   /*
   ** Nuxt.js modules

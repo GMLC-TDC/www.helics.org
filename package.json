@@ -12,11 +12,15 @@
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/vue-fontawesome": "^0.1.7",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.0.4",
-    "push-dir": "^0.4.1"
+    "push-dir": "^0.4.1",
+    "qonfucius-nuxt-fontawesome": "^1.0.1"
   }
 }
