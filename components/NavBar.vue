@@ -7,7 +7,7 @@
       type="dark"
       style="background-color: #1d8fc4;"
     >
-      <b-navbar-brand tag="h1" class="mb-0" href="/">HELICS</b-navbar-brand>
+      <b-navbar-brand tag="h1" class="mb-0" href="./">HELICS</b-navbar-brand>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
