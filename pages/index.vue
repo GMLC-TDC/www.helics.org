@@ -40,27 +40,27 @@
 
         <b-row>
           <b-col>
-            <img src="../assets/logo_argonne.png" />
+            <img class="image-logo" src="../assets/logo_argonne.png" />
           </b-col>
           <b-col>
-            <img src="../assets/logo_inl.png" />
+            <img class="image-logo" src="../assets/logo_inl.png" />
           </b-col>
           <b-col>
-            <img src="../assets/logo_lll.png" />
+            <img class="image-logo" src="../assets/logo_lll.png" />
           </b-col>
         </b-row>
         <b-row>
           <b-col>
-            <img src="../assets/logo_nrel.png" />
+            <img class="image-logo" src="../assets/logo_nrel.png" />
           </b-col>
           <b-col>
-            <img src="../assets/logo_oak.png" />
+            <img class="image-logo" src="../assets/logo_oak.png" />
           </b-col>
           <b-col>
-            <img src="../assets/logo_pnnl.jpg" />
+            <img class="image-logo" src="../assets/logo_pnnl.jpg" />
           </b-col>
           <b-col>
-            <img src="../assets/logo_sandia.png" />
+            <img class="image-logo" src="../assets/logo_sandia.png" />
           </b-col>
         </b-row>
       </b-col>
@@ -80,7 +80,7 @@ export default {
 </script>
 
 <style>
-img {
+.image-logo {
   max-width: 200px;
   width: auto;
   height: auto;
