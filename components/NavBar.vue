@@ -12,7 +12,7 @@
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
           <b-nav-item-dropdown text="Documentation">
-            <b-dropdown-item href="/introduction">Introduction</b-dropdown-item>
+            <b-dropdown-item href="./introduction">Introduction</b-dropdown-item>
             <b-dropdown-item
               href="https://helics.readthedocs.io/en/latest/user-guide/index.html"
             >User Guide</b-dropdown-item>
