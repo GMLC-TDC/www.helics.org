@@ -38,29 +38,29 @@
           <h1 class="mt-4">Partner Laboratories</h1>
         </b-row>
 
-        <b-row>
+        <b-row align-v="center">
           <b-col>
-            <img class="image-logo" src="../assets/logo_argonne.png" />
+            <b-img center class="image-logo" src="../assets/logo_argonne.png" />
           </b-col>
           <b-col>
-            <img class="image-logo" src="../assets/logo_inl.png" />
+            <b-img center class="image-logo" src="../assets/logo_inl.png" />
           </b-col>
           <b-col>
-            <img class="image-logo" src="../assets/logo_lll.jpg" />
+            <b-img center class="image-logo" src="../assets/logo_lll.jpg" />
           </b-col>
         </b-row>
-        <b-row>
+        <b-row align-v="center">
           <b-col>
-            <img class="image-logo" src="../assets/logo_nrel.png" />
+            <b-img center class="image-logo" src="../assets/logo_nrel.png" />
           </b-col>
           <b-col>
-            <img class="image-logo" src="../assets/logo_oak.png" />
+            <b-img center class="image-logo" src="../assets/logo_oak.png" />
           </b-col>
           <b-col>
-            <img class="image-logo" src="../assets/logo_pnnl.jpg" />
+            <b-img center class="image-logo" src="../assets/logo_pnnl.jpg" />
           </b-col>
           <b-col>
-            <img class="image-logo" src="../assets/logo_sandia.png" />
+            <b-img center class="image-logo" src="../assets/logo_sandia.png" />
           </b-col>
         </b-row>
       </b-col>
