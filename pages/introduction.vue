@@ -151,7 +151,7 @@
                   <p>
                     <a
                       href="https://github.com/GMLC-TDC/HELICSBuilder/releases/latest"
-                    >Download precompiled C/C++ Shared Libraries for Windows, Mac, Linux platforms to link with your application</a>.
+                    >Download precompiled C/C++ Shared Libraries for Windows, Mac, Linux platforms to link in your application</a>.
                   </p>
                 </li>
                 <li>
