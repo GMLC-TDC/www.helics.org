@@ -46,7 +46,7 @@
             <img class="image-logo" src="../assets/logo_inl.png" />
           </b-col>
           <b-col>
-            <img class="image-logo" src="../assets/logo_lll.png" />
+            <img class="image-logo" src="../assets/logo_lll.jpg" />
           </b-col>
         </b-row>
         <b-row>
