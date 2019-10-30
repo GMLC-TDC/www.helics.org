@@ -32,6 +32,7 @@ export default {
   ** Global CSS
   */
   css: [
+    './scss/custom.scss',
   ],
   /*
   ** Plugins to load before mounting the App
@@ -45,6 +46,13 @@ export default {
     'bootstrap-vue/nuxt',
     'qonfucius-nuxt-fontawesome',
   ],
+  /*
+  ** Disabling Bootstrap Compiled CSS
+  */
+  bootstrapVue: {
+    bootstrapCSS: false,
+    bootstrapVueCSS: false
+  },
   /*
   ** Nuxt.js modules
   */

@@ -135,7 +135,7 @@
         <ul>
           <li>
             <p>
-              <a href="https://anaconda.org/gmlc-tdc/helics">Conda HELICS Python</a>.
+              <a href="https://anaconda.org/gmlc-tdc/helics">Use Conda to install HELICS for Python</a>.
             </p>
           </li>
           <li>
@@ -150,6 +150,13 @@
               <a
                 href="https://github.com/GMLC-TDC/HELICSBuilder/releases/latest"
               >Precompiled C/C++ Shared Libraries for Windows, Mac, Linux platforms</a>.
+            </p>
+          </li>
+          <li>
+            <p>
+              <a
+                href="https://github.com/GMLC-TDC/HELICS.jl"
+              >Use HELICS in Julia</a>.
             </p>
           </li>
         </ul>

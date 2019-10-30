@@ -17,9 +17,9 @@
             <b-button size="lg" href="./introduction" variant="outline-secondary">Getting Started</b-button>
             <b-button
               size="lg"
-              href="https://github.com/GMLC-TDC/HELICS"
-              variant="outline-secondary"
-            >Source Code</b-button>
+              href="https://mybinder.org/v2/gh/kdheepak/openmod-2019-helics-tutorial/master?urlpath=lab/tree/notebooks/Introduction.ipynb"
+              variant="primary"
+            >Try HELICS online</b-button>
           </div>
         </b-row>
         <b-row class="justify-content-md-center">
@@ -80,9 +80,12 @@ export default {
 </script>
 
 <style>
+
 .image-logo {
   max-width: 200px;
   width: auto;
   height: auto;
 }
+
 </style>
+
