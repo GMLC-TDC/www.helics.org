@@ -30,6 +30,10 @@
                 <a
                   href="https://helics.readthedocs.io/en/latest/introduction/python.html"
                 >Hello World in Python</a>
+                <br />&raquo;
+                <a
+                  href="https://beta.mybinder.org/v2/gh/kdheepak/openmod-2019-helics-tutorial/master?urlpath=lab/tree/notebooks/cosimulation-introduction.ipynb"
+                >Try HELICS online</a>
                 <!-- <br />&raquo;
                 <a
                   href="https://helics.readthedocs.io/en/latest/introduction/editors-and-ides.html"
@@ -117,7 +121,7 @@
           <li>
             <p>
               <strong>Want to ask a question?</strong> Come find us on
-              <a href="https://gitter.im/GMLC-TDC/HELICS">gitter and get in contact</a>.
+              <a href="https://gitter.im/GMLC-TDC/HELICS">gitter and get in touch</a>.
             </p>
           </li>
           <li>
@@ -142,21 +146,21 @@
             <p>
               <a
                 href="https://github.com/GMLC-TDC/HELICS/releases/latest"
-              >Windows installers for C/C++ Shared Libraries with Python, MATLAB, and Java language bindings</a>.
+              >Check out our Windows installers for C/C++ Shared Libraries with Python, MATLAB, and Java language bindings</a>.
             </p>
           </li>
           <li>
             <p>
               <a
                 href="https://github.com/GMLC-TDC/HELICSBuilder/releases/latest"
-              >Precompiled C/C++ Shared Libraries for Windows, Mac, Linux platforms</a>.
+              >Download precompiled C/C++ Shared Libraries for Windows, Mac, Linux platforms to link with your application</a>.
             </p>
           </li>
           <li>
             <p>
               <a
                 href="https://github.com/GMLC-TDC/HELICS.jl"
-              >Use HELICS in Julia</a>.
+              >Try HELICS in Julia</a>.
             </p>
           </li>
         </ul>
