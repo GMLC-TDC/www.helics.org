@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-navbar
-      class="header"
+      class="header shadow"
       fixed="top"
       toggleable="lg"
       type="dark"
