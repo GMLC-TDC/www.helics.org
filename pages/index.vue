@@ -14,12 +14,12 @@
             <h2 class="title">HELICS</h2>
           </b-row>
           <div class="m-4 links">
-            <b-button size="lg" href="./introduction" variant="outline-secondary">Documentation</b-button>
+            <b-button size="lg" href="./introduction" variant="outline-secondary">Getting Started</b-button>
             <b-button
               size="lg"
               href="https://github.com/GMLC-TDC/HELICS"
               variant="outline-secondary"
-            >Source</b-button>
+            >Source Code</b-button>
           </div>
         </b-row>
         <b-row class="justify-content-md-center">
