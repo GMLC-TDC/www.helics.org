@@ -1,14 +1,14 @@
 <template>
   <b-container style="padding-top: 60px;">
     <b-row>
-      <b-col class="mt-4" cols="12">
-        <b-row class="mt-4">
-          <h3>Documentation</h3>
+      <b-col class="mt-3 ml-0 mr-0" cols="12">
+        <b-row class="mt-2 mb-0 ml-0 mr-0">
+          <h3>Getting Started</h3>
         </b-row>
-        <b-row>
-          <p>The following provides an introduction to the HELICS co-simulation library.</p>
+        <b-row class="mt-2 mb-0 ml-0 mr-0">
+          <p>The following is useful information to getting started with the HELICS co-simulation library.</p>
         </b-row>
-        <b-row class="mt-4 mb-4 ml-0 mr-0">
+        <b-row class="mt-2 mb-4 ml-0 mr-0">
           <b-col class="ml-0 mr-0">
             <b-row class="ml-0">
               <h5 class="mb-4">Introduction</h5>
@@ -89,81 +89,82 @@
             </b-row>
           </b-col>
         </b-row>
-        <b-row class="mt-4 mb-4 ml-0 mr-0">
+        <b-row class="mt-2 mb-4 ml-0 mr-0">
           <b-col class="ml-0 mr-0">
             <b-row class="ml-0">
-            <h5 class="mb-4">Want to know more?</h5>
-            <ul>
-              <li>
-                <p>
-                  <strong>Looking for tutorials/code snippets?</strong> Check out our
-                  <a
-                    href="https://github.com/GMLC-TDC/HELICS-Examples"
-                  >HELICS Examples Repository</a>.
-                </p>
-              </li>
-              <li>
-                <p>
-                  <strong>Looking for videos?</strong> Check out
-                  <a
-                    href="https://www.youtube.com/channel/UCPa81c4BVXEYXt2EShTzbcg"
-                  >HELICS Tutorials playlist</a> section.
-                </p>
-              </li>
-              <li>
-                <p>
-                  <strong>Want to ask a question?</strong> Come find us on
-                  <a href="https://gitter.im/GMLC-TDC/HELICS">gitter and get in touch</a>.
-                </p>
-              </li>
-              <li>
-                <p>
-                  <strong>Have a feature request or bug report? Want to make a contribution or provide feedback?</strong> All development is open source and publically available, check out the sources over at
-                  <a
-                    href="https://github.com/GMLC-TDC/HELICS"
-                  >our GitHub organization</a>.
-                </p>
-              </li>
-            </ul>
+              <h5 class="mb-4">Want to know more?</h5>
+              <ul>
+                <li>
+                  <p>
+                    <strong>Looking for tutorials/code snippets?</strong> Check out our
+                    <a
+                      href="https://github.com/GMLC-TDC/HELICS-Examples"
+                    >HELICS Examples Repository</a>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>Looking for videos?</strong> Check out
+                    <a
+                      href="https://www.youtube.com/channel/UCPa81c4BVXEYXt2EShTzbcg"
+                    >HELICS Tutorials playlist</a> section.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>Want to ask a question?</strong> Come find us on
+                    <a
+                      href="https://gitter.im/GMLC-TDC/HELICS"
+                    >gitter and get in touch</a>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>Have a feature request or bug report? Want to make a contribution or provide feedback?</strong> All development is open source and publically available, check out the sources over at
+                    <a
+                      href="https://github.com/GMLC-TDC/HELICS"
+                    >our GitHub organization</a>.
+                  </p>
+                </li>
+              </ul>
             </b-row>
           </b-col>
           <b-col class="ml-0 mr-0">
             <b-row class="ml-0">
-            <h5 class="mb-4">Getting Started</h5>
-            <ul>
-              <li>
-                <p>
-                  <a href="https://anaconda.org/gmlc-tdc/helics">Use Conda to install HELICS for Python</a>.
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a
-                    href="https://github.com/GMLC-TDC/HELICS/releases/latest"
-                  >Check out our Windows installers for C/C++ Shared Libraries with Python, MATLAB, and Java language bindings</a>.
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a
-                    href="https://github.com/GMLC-TDC/HELICSBuilder/releases/latest"
-                  >Download precompiled C/C++ Shared Libraries for Windows, Mac, Linux platforms to link with your application</a>.
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a
-                    href="https://github.com/GMLC-TDC/HELICS.jl"
-                  >Try HELICS in Julia</a>.
-                </p>
-              </li>
-            </ul>
+              <h5 class="mb-4">Additional Information</h5>
+              <ul>
+                <li>
+                  <p>
+                    <a
+                      href="https://anaconda.org/gmlc-tdc/helics"
+                    >Use Conda to install HELICS for Python</a>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <a
+                      href="https://github.com/GMLC-TDC/HELICS/releases/latest"
+                    >Check out our Windows installers for C/C++ Shared Libraries with Python, MATLAB, and Java language bindings</a>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <a
+                      href="https://github.com/GMLC-TDC/HELICSBuilder/releases/latest"
+                    >Download precompiled C/C++ Shared Libraries for Windows, Mac, Linux platforms to link with your application</a>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <a href="https://github.com/GMLC-TDC/HELICS.jl">Try HELICS in Julia</a>.
+                  </p>
+                </li>
+              </ul>
             </b-row>
           </b-col>
         </b-row>
       </b-col>
     </b-row>
-
   </b-container>
 </template>
 
