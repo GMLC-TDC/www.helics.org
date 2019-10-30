@@ -10,8 +10,7 @@
           <b-row class="justify-content-md-center">
             <h1
               class="mt-4 mb-2 subtitle justify-content-md-center text-center"
-            >Hierarchical Engine for Large-scale Infrastructure Co-Simulation</h1>
-            <h2 class="title">HELICS</h2>
+            >Hierarchical Engine for Large-scale Infrastructure Co-Simulation (HELICS)</h1>
           </b-row>
           <div class="m-4 links">
             <b-button size="lg" href="./introduction" variant="outline-secondary">Getting Started</b-button>

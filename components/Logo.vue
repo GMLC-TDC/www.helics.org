@@ -1,6 +1,6 @@
 <template>
   <div id="helics-logo">
-    <img src="../assets/logo.png" height="100px" width="100px" />
+    <img src="../assets/logo.png" width="200px" />
   </div>
 </template>
 
@@ -12,7 +12,5 @@ export default {};
 img {
   max-width: 480px;
   max-height: 400px;
-  width: auto;
-  height: auto;
 }
 </style>
