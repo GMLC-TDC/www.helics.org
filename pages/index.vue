@@ -17,7 +17,7 @@
             <b-button size="lg" href="./introduction" variant="outline-secondary">Getting Started</b-button>
             <b-button
               size="lg"
-              href="https://mybinder.org/v2/gh/kdheepak/openmod-2019-helics-tutorial/master?urlpath=lab/tree/notebooks/Introduction.ipynb"
+              href="https://beta.mybinder.org/v2/gh/kdheepak/openmod-2019-helics-tutorial/master?urlpath=lab/tree/notebooks/cosimulation-introduction.ipynb"
               variant="primary"
             >Try HELICS online</b-button>
           </div>
