@@ -15,7 +15,7 @@
               href="https://www.youtube.com/channel/UCPa81c4BVXEYXt2EShTzbcg"
             >YouTube Tutorials</b-dropdown-item>
           </b-nav-item-dropdown>
-
+          <b-nav-item href="./tools">Tools</b-nav-item>
           <b-nav-item href="https://github.com/GMLC-TDC/HELICS/releases/latest">Download</b-nav-item>
         </b-navbar-nav>
         <b-navbar-nav class="ml-auto">
