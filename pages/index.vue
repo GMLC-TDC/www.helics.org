@@ -31,7 +31,7 @@
             <p>
               For more information, please visit the
               <a
-                href="https://gridmod.labworks.org/projects/1.4.15"
+                href="https://gmlc.doe.gov/"
               >GMLC website</a>.
             </p>
           </b-row>
