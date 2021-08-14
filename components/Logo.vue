@@ -1,11 +1,11 @@
 <template>
   <div id="helics-logo">
-    <img src="../assets/logo.png" width="200px" />
+    <img src="assets/logo.png" width="200px" />
   </div>
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style>
