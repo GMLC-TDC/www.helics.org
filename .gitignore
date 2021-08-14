@@ -1,8 +1,7 @@
-package-lock.json
 # Created by .ignore support plugin (hsz.mobi)
 ### Node template
 # Logs
-logs
+/logs
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -84,7 +83,7 @@ dist
 # Service worker
 sw.*
 
-# Mac OSX
+# macOS
 .DS_Store
 
 # Vim swap files
