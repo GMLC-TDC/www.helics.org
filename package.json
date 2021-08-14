@@ -6,7 +6,9 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate",
+    "deploy:gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "bootstrap": "^4.6.0",

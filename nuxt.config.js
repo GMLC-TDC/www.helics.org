@@ -1,3 +1,13 @@
+// only add `router.base = '/<repository-name>/'` if `DEPLOY_ENV` is `GH_PAGES`
+const routerBase =
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? {
+        router: {
+          base: `/${process.env.npm_package_name}/`,
+        },
+      }
+    : {}
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -40,4 +50,8 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+  /*
+   ** Router configuration
+   */
+  ...routerBase,
 }
