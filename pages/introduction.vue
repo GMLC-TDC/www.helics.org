@@ -40,12 +40,6 @@
                   href="https://beta.mybinder.org/v2/gh/kdheepak/openmod-2019-helics-tutorial/master?urlpath=lab/tree/notebooks/cosimulation-introduction.ipynb"
                   >Try HELICS online</a
                 >
-                <!-- <br />&raquo;
-                <a
-                  href="https://helics.readthedocs.io/en/latest/introduction/editors-and-ides.html"
-                  disabled
-                >Editors and IDEs</a>
-                -->
               </p>
             </b-row>
           </b-col>
