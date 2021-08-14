@@ -15,8 +15,8 @@ jobs:
         with:
           node-version: '16'
 
-      - name: Clean install dependencies
-        run: yarn install --frozen-lockfile
+      - name: Install dependencies
+        run: yarn install
 
       - name: Build application
         run: yarn generate:gh-pages
