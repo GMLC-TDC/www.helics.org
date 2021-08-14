@@ -21,7 +21,8 @@ jobs:
       - name: Build application
         run: yarn generate:gh-pages
 
-      - name: Run deploy script
-        run: |
-          git config user.name "Dheepak Krishnamurthy" && git config user.email "me@kdheepak.com"
-          yarn deploy:gh-pages
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
