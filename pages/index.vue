@@ -25,7 +25,7 @@
               >
               <b-button
                 size="lg"
-                href="https://beta.mybinder.org/v2/gh/kdheepak/openmod-2019-helics-tutorial/master?urlpath=lab/tree/notebooks/cosimulation-introduction.ipynb"
+                href="https://beta.mybinder.org/v2/gh/GMLC-TDC/pesgm-2019-helics-tutorial/master?urlpath=lab/tree/notebooks/cosimulation-introduction.ipynb"
                 variant="primary"
                 >Try HELICS online</b-button
               >
