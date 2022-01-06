@@ -49,6 +49,7 @@
       <a
         alt="download"
         class="nav-link text-white opacity-60 hover:opacity-80 focus:opacity-80 p-0"
+        target="_blank"
         href="https://github.com/GMLC-TDC/HELICS/releases/latest"
       >
         <Icon data={faDownload} />
@@ -56,6 +57,7 @@
       <a
         alt="github"
         class="nav-link text-white opacity-60 hover:opacity-80 focus:opacity-80 p-0"
+        target="_blank"
         href="https://github.com/GMLC-TDC/HELICS"
       >
         <Icon data={faGithub} />

@@ -18,7 +18,7 @@
       <a
         href="https://beta.mybinder.org/v2/gh/GMLC-TDC/pesgm-2019-helics-tutorial/master?urlpath=lab/tree/notebooks/cosimulation-introduction.ipynb"
         class="inline-block px-6 py-2.5 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out"
-        >Try HELICS online</a
+        target="_blank">Try HELICS online</a
       >
     </div>
 
@@ -27,19 +27,19 @@
         alt=""
         href="https://docs.helics.org/en/latest/user-guide/index.html"
         class="inline-block px-6 py-2.5 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out"
-        >User Guide</a
+        target="_blank">User Guide</a
       >
       <a
         alt=""
         href="https://github.com/GMLC-TDC/HELICS-Examples"
         class="inline-block px-6 py-2.5 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out"
-        >HELICS Examples</a
+        target="_blank">HELICS Examples</a
       >
       <a
         alt=""
         href="https://www.youtube.com/channel/UCPa81c4BVXEYXt2EShTzbcg"
         class="inline-block px-6 py-2.5 bg-gray-200 text-gray-700 font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out"
-        >YouTube Tutorials</a
+        target="_blank">YouTube Tutorials</a
       >
     </div>
     <h1 class="mt-4">About</h1>
