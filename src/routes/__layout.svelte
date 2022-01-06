@@ -6,7 +6,7 @@
   function capitalize(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
   }
-  let title = capitalize(page.url.pathname.substring(1))
+  let title = "HELICS"
 </script>
 
 <svelte:head>
