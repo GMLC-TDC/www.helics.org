@@ -3,11 +3,7 @@
   import Icon from 'svelte-awesome/components/Icon.svelte'
 
   async function getContributors() {
-    const responses = [
-      fetch('https://api.github.com/repos/GMLC-TDC/HELICS/contributors'),
-      fetch('https://api.github.com/repos/GMLC-TDC/pyhelics/contributors'),
-      fetch('https://api.github.com/repos/GMLC-TDC/helics-ns3/contributors'),
-    ]
+    const responses = [fetch('https://api.github.com/repos/GMLC-TDC/HELICS/contributors')]
     var contributors = []
     for (const response of responses) {
       contributors = contributors.concat(await (await response).json())
@@ -17,7 +13,6 @@
         return false
       }
       for (const member of members) {
-        console.log(member)
         if (contributor.login === member.login) {
           return false
         }
