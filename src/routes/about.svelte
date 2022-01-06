@@ -6,6 +6,7 @@
     const responses = [
       fetch('https://api.github.com/repos/GMLC-TDC/HELICS/contributors'),
       fetch('https://api.github.com/repos/GMLC-TDC/pyhelics/contributors'),
+      fetch('https://api.github.com/repos/GMLC-TDC/helics-ns3/contributors'),
     ]
     var contributors = []
     for (const response of responses) {
