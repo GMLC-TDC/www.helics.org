@@ -62,7 +62,7 @@
               alt="Avatar"
             />
             <h5 class="text-xl font-medium leading-tight mb-2">{member.name}</h5>
-            <a href={member.githubUrl} alt="github" class="text-gray-500"
+            <a target="_blank" href={member.githubUrl} alt="github" class="text-gray-500"
               ><Icon data={faGithub} /></a
             >
           </div>
