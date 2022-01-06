@@ -165,6 +165,10 @@
         <h4>Additional Information</h4>
           <p>
         &raquo;
+        <a alt="" target="_blank" href="https://pypi.org/project/helics"
+          >Use pip to install HELICS for Python (recommended)</a
+        >.
+        <br />&raquo;
         <a alt="" target="_blank" href="https://anaconda.org/gmlc-tdc/helics"
           >Use Conda to install HELICS for Python</a
         >.
