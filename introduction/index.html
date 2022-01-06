@@ -12,14 +12,14 @@
 
 		<link rel="stylesheet" href="/_app/assets/start-d5b4de3e.css">
 		<link rel="stylesheet" href="/_app/assets/vendor-f9351f49.css">
-		<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-ed3dce8c.css">
-		<link rel="modulepreload" href="/_app/start-bdb3cea5.js">
+		<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-c2995d69.css">
+		<link rel="modulepreload" href="/_app/start-2cb80a20.js">
 		<link rel="modulepreload" href="/_app/chunks/vendor-a01b4930.js">
 		<link rel="modulepreload" href="/_app/pages/__layout.svelte-6f9accbb.js">
-		<link rel="modulepreload" href="/_app/pages/introduction.svelte-d99bec8d.js">
+		<link rel="modulepreload" href="/_app/pages/introduction.svelte-e94ff7d3.js">
 
 		<script type="module">
-			import { start } from "/_app/start-bdb3cea5.js";
+			import { start } from "/_app/start-2cb80a20.js";
 			start({
 				target: document.querySelector("#svelte"),
 				paths: {"base":"","assets":""},
@@ -32,7 +32,7 @@
 					error: null,
 					nodes: [
 						import("/_app/pages/__layout.svelte-6f9accbb.js"),
-						import("/_app/pages/introduction.svelte-d99bec8d.js")
+						import("/_app/pages/introduction.svelte-e94ff7d3.js")
 					],
 					url: new URL("http://prerender/introduction"),
 					params: {}
@@ -68,11 +68,11 @@
       
   </svg></a></div>
     </div></nav>
-  <div class="grid mx-8 md:mx-16 mt-6"><article class="prose prose-lg max-w-none"><div class="grid"><div class="flex flex-col"><h3>Getting Started</h3>
+  <div class="grid mx-8 md:mx-16 mt-6"><article class="prose prose-lg max-w-none"><div class="grid w-full"><div class="flex flex-col"><h3>Getting Started</h3>
       <p>The following is useful information to getting started with the HELICS co-simulation
         library.
       </p></div>
-    <div class="grid grid-cols-3 space-x-6 my-2"><div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg"><div class="p-6 flex flex-col justify-start"><h4>Introduction</h4>
+    <div class="flex space-x-6 my-2 w-full justify-center"><div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg"><div class="p-6 flex flex-col justify-start"><h4>Introduction</h4>
           <p>Basic introduction to HELICS language, installation instructions and anything else you
             need to get started.
           </p>
@@ -88,62 +88,63 @@
             »
             <a alt="" target="_blank" href="https://beta.mybinder.org/v2/gh/kdheepak/openmod-2019-helics-tutorial/master?urlpath=lab/tree/notebooks/cosimulation-introduction.ipynb">Try HELICS online</a></p></div></div>
       <div><div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg"><div class="p-6 flex flex-col justify-start"><h4>User Guide</h4>
-        <p>A user guide for HELICS. This assumes a familiarity with general programming concepts, and
-          some familiarity with domain tools.
-        </p>
-        <p>»
-          <a href="https://docs.helics.org/en/latest/user-guide/co-simulation_overview.html" alt="" target="_blank">Co-simulation Overview</a>
-          <br>
-          »
-          <a href="https://docs.helics.org/en/latest/user-guide/fundamental_topics/fundamental_topics_index.html" alt="" target="_blank">Key Concepts</a>
-          <br>
-          »
-          <a href="https://docs.helics.org/en/latest/user-guide/fundamental_topics/stages.html" alt="" target="_blank">Co-Simulation Stages</a>
-          <br>
-          »
-          <a href="https://docs.helics.org/en/latest/user-guide/fundamental_topics/timing_configuration.html" alt="" target="_blank">Co-Simulation Timing Configuration</a></p></div></div></div>
+            <p>A user guide for HELICS. This assumes a familiarity with general programming concepts,
+              and some familiarity with domain tools.
+            </p>
+            <p>»
+              <a href="https://docs.helics.org/en/latest/user-guide/co-simulation_overview.html" alt="" target="_blank">Co-simulation Overview</a>
+              <br>
+              »
+              <a href="https://docs.helics.org/en/latest/user-guide/fundamental_topics/fundamental_topics_index.html" alt="" target="_blank">Key Concepts</a>
+              <br>
+              »
+              <a href="https://docs.helics.org/en/latest/user-guide/fundamental_topics/stages.html" alt="" target="_blank">Co-Simulation Stages</a>
+              <br>
+              »
+              <a href="https://docs.helics.org/en/latest/user-guide/fundamental_topics/timing_configuration.html" alt="" target="_blank">Co-Simulation Timing Configuration</a></p></div></div></div>
       <div><div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg"><div class="p-6 flex flex-col justify-start"><h4>API</h4>
-        <p>Configuration options documentation for the
-          <a href="https://docs.helics.org/en/latest/references/configuration_options_reference.html" alt="" target="_blank">HELICS Library</a>.
-        </p>
-        <p><br>»
-          <a href="https://docs.helics.org/en/latest/references/api-reference/C_API.html" alt="" target="_blank">C API Documentation</a>
-          <br>»
-          <a href="https://python.helics.org/api/capi-py/" alt="" target="_blank">Python API Documentation</a>
-          <br>»
-          <a href="https://gmlc-tdc.github.io/HELICS.jl/latest/api/" alt="" target="_blank">Julia API Documentation</a>
-          <br>»
-          <a href="https://docs.helics.org/en/latest/doxygen/index.html" alt="" target="_blank">C++ Doxygen Documentation</a></p></div></div></div></div>
-    <div class="grid grid-cols-2 space-x-6 my-2"><div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg"><div class="p-6 flex flex-col justify-start"><h4>Want to know more?</h4>
+            <p>Configuration options documentation for the
+              <a href="https://docs.helics.org/en/latest/references/configuration_options_reference.html" alt="" target="_blank">HELICS Library</a>.
+            </p>
+            <p><br>»
+              <a href="https://docs.helics.org/en/latest/references/api-reference/C_API.html" alt="" target="_blank">C API Documentation</a>
+              <br>»
+              <a href="https://python.helics.org/api/capi-py/" alt="" target="_blank">Python API Documentation</a>
+              <br>»
+              <a href="https://gmlc-tdc.github.io/HELICS.jl/latest/api/" alt="" target="_blank">Julia API Documentation</a>
+              <br>»
+              <a href="https://docs.helics.org/en/latest/doxygen/index.html" alt="" target="_blank">C++ Doxygen Documentation</a></p></div></div></div></div>
+    <div class="flex space-x-6 my-2 w-full justify-center"><div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg"><div class="p-6 flex flex-col justify-start"><h4>Want to know more?</h4>
           <p>»
-        <strong>Looking for tutorials/code snippets?</strong> Check out our
-        <a alt="" target="_blank" href="https://github.com/GMLC-TDC/HELICS-Examples">HELICS Examples Repository</a>.
-        <br>»
-        <strong>Looking for videos?</strong> Check out
-        <a alt="" target="_blank" href="https://www.youtube.com/channel/UCPa81c4BVXEYXt2EShTzbcg">HELICS Tutorials playlist</a>
-        section.
-        <br>»
-        <strong>Want to ask a question?</strong> Come find us on
-        <a alt="" target="_blank" href="https://gitter.im/GMLC-TDC/HELICS">gitter and get in touch</a>.
-        <br>»
-        <strong>Have a feature request or bug report? Want to make a contribution or provide feedback?</strong>
-        All development is open source and publically available, check out the sources over at
-        <a alt="" target="_blank" href="https://github.com/GMLC-TDC/HELICS">our GitHub organization</a>.
+            <strong>Looking for tutorials/code snippets?</strong> Check out our
+            <a alt="" target="_blank" href="https://github.com/GMLC-TDC/HELICS-Examples">HELICS Examples Repository</a>.
+            <br>»
+            <strong>Looking for videos?</strong> Check out
+            <a alt="" target="_blank" href="https://www.youtube.com/channel/UCPa81c4BVXEYXt2EShTzbcg">HELICS Tutorials playlist</a>
+            section.
+            <br>»
+            <strong>Want to ask a question?</strong> Come find us on
+            <a alt="" target="_blank" href="https://gitter.im/GMLC-TDC/HELICS">gitter and get in touch</a>.
+            <br>»
+            <strong>Have a feature request or bug report? Want to make a contribution or provide
+              feedback?</strong>
+            All development is open source and publically available, check out the sources over at
+            <a alt="" target="_blank" href="https://github.com/GMLC-TDC/HELICS">our GitHub organization</a>.
           </p></div></div>
       <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg"><div class="p-6 flex flex-col justify-start"><h4>Additional Information</h4>
           <p>»
-        <a alt="" target="_blank" href="https://pypi.org/project/helics">Use pip to install HELICS for Python (recommended)</a>.
-        <br>»
-        <a alt="" target="_blank" href="https://anaconda.org/gmlc-tdc/helics">Use Conda to install HELICS for Python</a>.
-        <br>»
-        <a alt="" target="_blank" href="https://github.com/GMLC-TDC/HELICS/releases/latest">Check out our Windows installers for C/C++ Shared Libraries with Python, MATLAB, and Java
-          language bindings</a>.
-        <br>»
-        <a alt="" target="_blank" href="https://github.com/GMLC-TDC/HELICSBuilder/releases/latest">Download precompiled C/C++ Shared Libraries for Windows, Mac, Linux platforms to link in
-          your application</a>.
-        <br>»
-        <a alt="" target="_blank" href="https://github.com/GMLC-TDC/HELICS.jl">Try HELICS in Julia</a>.
-        </p></div></div></div></div></article></div>
+            <a alt="" target="_blank" href="https://pypi.org/project/helics">Use pip to install HELICS for Python (recommended)</a>.
+            <br>»
+            <a alt="" target="_blank" href="https://anaconda.org/gmlc-tdc/helics">Use Conda to install HELICS for Python</a>.
+            <br>»
+            <a alt="" target="_blank" href="https://github.com/GMLC-TDC/HELICS/releases/latest">Check out our Windows installers for C/C++ Shared Libraries with Python, MATLAB, and
+              Java language bindings</a>.
+            <br>»
+            <a alt="" target="_blank" href="https://github.com/GMLC-TDC/HELICSBuilder/releases/latest">Download precompiled C/C++ Shared Libraries for Windows, Mac, Linux platforms to link
+              in your application</a>.
+            <br>»
+            <a alt="" target="_blank" href="https://github.com/GMLC-TDC/HELICS.jl">Try HELICS in Julia</a>.
+          </p></div></div></div></div></article></div>
   <footer class="bg-gray-900 text-gray-200 shadow-lg text-center lg:text-left mt-6"><div class="text-gray-200 text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">© 2021 Copyright:
     <a class="text-gray-100" href="https://github.com/GMLC-TDC/HELICS">HELICS</a></div></footer></div>
 
