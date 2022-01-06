@@ -84,17 +84,15 @@
 
   {#await promise then contributors}
     <h2>Contributors</h2>
-    <div class="flex justify-start space-x-2">
+    <div class="flex flex-wrap justify-start space-x-2">
       {#each contributors as contributor (contributor.login)}
-        <div class="text-center">
-          <a target="_blank" href={contributor.html_url} alt="github" class="text-gray-500">
-            <img
-              src={contributor.avatar_url}
-              class="rounded-full w-32 mb-4 mx-auto shadow-lg"
-              alt="Avatar"
-            />
-          </a>
-        </div>
+        <a target="_blank" href={contributor.html_url} alt="github" class="text-gray-500">
+          <img
+            src={contributor.avatar_url}
+            class="rounded-full w-16 mb-4 mx-auto shadow-lg"
+            alt="Avatar"
+          />
+        </a>
       {/each}
     </div>
   {/await}
