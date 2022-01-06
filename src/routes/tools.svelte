@@ -1,5 +1,5 @@
 <article class="prose prose-lg max-w-none">
-  <h2>Tools integrated with HELICS</h2>
+  <h2>Showcase of tools with HELICS support</h2>
   <p>
     The following list of tools is a list of tools that have worked with HELICS at some level either
     on current projects or in the past, or in some cases funded projects that will be working with
