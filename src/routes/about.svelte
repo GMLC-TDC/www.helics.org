@@ -52,7 +52,7 @@
   <h2>Core Team</h2>
   {#each ['Pacific Northwest National Laboratory', 'Lawrence Livermore National Laboratory', 'National Renewable Energy Laboratory'] as affiliation}
     <h3>{affiliation}</h3>
-    <div class="flex justify-evenly space-x-6">
+    <div class="flex justify-start space-x-6">
       {#each members as member (member.name)}
         {#if member.affiliation === affiliation}
           <div class="text-center">
