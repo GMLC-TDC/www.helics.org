@@ -168,19 +168,16 @@
         <a alt="" target="_blank" href="https://anaconda.org/gmlc-tdc/helics"
           >Use Conda to install HELICS for Python</a
         >.
-        <br />
         <br />&raquo;
         <a alt="" target="_blank" href="https://github.com/GMLC-TDC/HELICS/releases/latest"
           >Check out our Windows installers for C/C++ Shared Libraries with Python, MATLAB, and Java
           language bindings</a
         >.
-        <br />
         <br />&raquo;
         <a alt="" target="_blank" href="https://github.com/GMLC-TDC/HELICSBuilder/releases/latest"
           >Download precompiled C/C++ Shared Libraries for Windows, Mac, Linux platforms to link in
           your application</a
         >.
-        <br />
         <br />&raquo;
         <a alt="" target="_blank" href="https://github.com/GMLC-TDC/HELICS.jl"
           >Try HELICS in Julia</a
