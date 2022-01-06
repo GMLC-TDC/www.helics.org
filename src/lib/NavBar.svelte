@@ -1,7 +1,11 @@
 <script lang="ts">
   import { base } from '$app/paths'
   import { getStores, navigating, page, session } from '$app/stores'
-  import { faBookOpen, faComments, faDownload } from '
+  import { faBookOpen, faComments, faDownload } from '@fortawesome/free-solid-svg-icons'
+  import { faGithub } from '@fortawesome/free-brands-svg-icons'
+  import Icon from 'svelte-awesome/components/Icon.svelte'
+</script>
+
 <nav
   class="relative w-full flex flex-wrap items-center justify-between py-3 bg-gray-900 text-gray-200 shadow-lg navbar navbar-expand-lg navbar-light mb-6"
 >
