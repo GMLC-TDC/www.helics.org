@@ -1,49 +1,57 @@
 <script lang="ts">
   import { faGithub } from '@fortawesome/free-brands-svg-icons'
+  import { onMount } from 'svelte'
   import Icon from 'svelte-awesome/components/Icon.svelte'
 
+  async function getContributors() {
+    const response = await fetch('https://api.github.com/repos/GMLC-TDC/HELICS/contributors')
+    const contributors = await response.json()
+    const ignore = []
+    return contributors.filter((contributor) => !contributor.login.includes('bot'))
+  }
+  const promise = getContributors()
   let members = [
     {
       name: 'Philip Top',
       affiliation: 'Lawrence Livermore National Laboratory',
       profileUrl: 'https://avatars.githubusercontent.com/u/20667153?v=4',
-      githubUrl: 'https://github.com/phlptp',
+      login: 'phlptp',
     },
     {
       name: 'Jason Fuller',
       affiliation: 'Pacific Northwest National Laboratory',
       profileUrl: 'https://avatars.githubusercontent.com/u/4552618?v=4',
-      githubUrl: 'https://github.com/jcfuller1',
+      login: 'jcfuller1',
     },
     {
       name: 'Trevor Hardy',
       affiliation: 'Pacific Northwest National Laboratory',
       profileUrl: 'https://avatars.githubusercontent.com/u/8697189?v=4',
-      githubUrl: 'https://github.com/trevorhardy',
+      login: 'trevorhardy',
     },
     {
       name: 'Bryan Palmintier',
       affiliation: 'National Renewable Energy Laboratory',
       profileUrl: 'https://avatars.githubusercontent.com/u/249272?v=4',
-      githubUrl: 'https://github.com/bpalmintier',
+      login: 'bpalmintier',
     },
     {
       name: 'Andy Fisher',
       affiliation: 'Pacific Northwest National Laboratory',
       profileUrl: 'https://avatars.githubusercontent.com/u/4552674?v=4',
-      githubUrl: 'https://github.com/afisher1',
+      login: 'afisher1',
     },
     {
       name: 'Ryan Mast',
       affiliation: 'Lawrence Livermore National Laboratory',
       profileUrl: 'https://avatars.githubusercontent.com/u/3969255?v=4',
-      githubUrl: 'https://github.com/nightlark',
+      login: 'nightlark',
     },
     {
       name: 'Dheepak Krishnamurthy',
       affiliation: 'National Renewable Energy Laboratory',
       profileUrl: 'https://avatars.githubusercontent.com/u/1813121?v=4',
-      githubUrl: 'https://github.com/kdheepak',
+      login: 'kdheepak',
     },
   ]
 </script>
@@ -62,14 +70,34 @@
               alt="Avatar"
             />
             <h5 class="text-xl font-medium leading-tight mb-2">{member.name}</h5>
-            <a target="_blank" href={member.githubUrl} alt="github" class="text-gray-500"
-              ><Icon data={faGithub} /></a
+            <a
+              target="_blank"
+              href="https://github.com/{member.login}"
+              alt="github"
+              class="text-gray-500"><Icon data={faGithub} /></a
             >
           </div>
         {/if}
       {/each}
     </div>
   {/each}
+
+  {#await promise then contributors}
+    <h2>Contributors</h2>
+    <div class="flex justify-start space-x-2">
+      {#each contributors as contributor (contributor.login)}
+        <div class="text-center">
+          <a target="_blank" href={contributor.html_url} alt="github" class="text-gray-500">
+            <img
+              src={contributor.avatar_url}
+              class="rounded-full w-32 mb-4 mx-auto shadow-lg"
+              alt="Avatar"
+            />
+          </a>
+        </div>
+      {/each}
+    </div>
+  {/await}
 
   <h2>Statistics</h2>
   <h3>Badges</h3>
