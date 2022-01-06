@@ -1,0 +1,66 @@
+<script lang="ts">
+  import { base } from '$app/paths'
+  import { getStores, navigating, page, session } from '$app/stores'
+  import { faDownload, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
+  import { faGithub } from '@fortawesome/free-brands-svg-icons'
+  import Icon from 'svelte-awesome/components/Icon.svelte'
+</script>
+
+<nav
+  class="relative w-full flex flex-wrap items-center justify-between py-3 bg-gray-900 text-gray-200 shadow-lg navbar navbar-expand-lg navbar-light mb-6"
+>
+  <div class="container-fluid w-full flex flex-wrap items-center justify-between px-6">
+    <div class="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent1">
+      <a class="text-xl text-white pr-2 font-semibold" href="/">HELICS</a>
+      <!-- Left links -->
+      <ul class="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
+        <li class="nav-item p-2">
+          <a
+            class="nav-link text-white {$page.url.pathname == '/introduction'
+              ? ''
+              : 'opacity-60 hover:opacity-80 focus:opacity-80 p-0'}"
+            href="/introduction">Getting Started</a
+          >
+        </li>
+        <li class="nav-item p-2">
+          <a
+            class="nav-link text-white {$page.url.pathname == '/tools'
+              ? ''
+              : 'opacity-60 hover:opacity-80 focus:opacity-80 p-0'}"
+            href="/tools">Integrated Tools</a
+          >
+        </li>
+        <li class="nav-item p-2">
+          <a
+            class="nav-link text-white {$page.url.pathname == '/about'
+              ? ''
+              : 'opacity-60 hover:opacity-80 focus:opacity-80 p-0'}"
+            href="/about">Team</a
+          >
+        </li>
+      </ul>
+      <!-- Left links -->
+    </div>
+    <!-- Collapsible wrapper -->
+
+    <!-- Right elements -->
+    <div class="flex items-center relative space-x-4">
+      <!-- Icons -->
+      <a
+        alt="download"
+        class="nav-link text-white opacity-60 hover:opacity-80 focus:opacity-80 p-0"
+        href="https://github.com/GMLC-TDC/HELICS/releases/latest"
+      >
+        <Icon data={faDownload} />
+      </a>
+      <a
+        alt="github"
+        class="nav-link text-white opacity-60 hover:opacity-80 focus:opacity-80 p-0"
+        href="https://github.com/GMLC-TDC/HELICS"
+      >
+        <Icon data={faGithub} />
+      </a>
+    </div>
+    <!-- Right elements -->
+  </div>
+</nav>
