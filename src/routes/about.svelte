@@ -1,13 +1,29 @@
 <script lang="ts">
   import { faGithub } from '@fortawesome/free-brands-svg-icons'
-  import { onMount } from 'svelte'
   import Icon from 'svelte-awesome/components/Icon.svelte'
 
   async function getContributors() {
-    const response = await fetch('https://api.github.com/repos/GMLC-TDC/HELICS/contributors')
-    const contributors = await response.json()
-    const ignore = []
-    return contributors.filter((contributor) => !contributor.login.includes('bot'))
+    const responses = [
+      fetch('https://api.github.com/repos/GMLC-TDC/HELICS/contributors'),
+      fetch('https://api.github.com/repos/GMLC-TDC/pyhelics/contributors'),
+    ]
+    var contributors = []
+    for (const response of responses) {
+      contributors = contributors.concat(await (await response).json())
+    }
+    contributors = contributors.filter((contributor: any) => {
+      if (contributor.login.includes('bot')) {
+        return false
+      }
+      for (const member of members) {
+        console.log(member)
+        if (contributor.login === member.login) {
+          return false
+        }
+      }
+      return true
+    })
+    return contributors
   }
   const promise = getContributors()
   let members = [
