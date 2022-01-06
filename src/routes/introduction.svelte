@@ -9,48 +9,52 @@
         library.
       </p>
     </div>
-    <div class="grid grid-cols-3">
-      <div>
-        <h4>Introduction</h4>
-        <p>
-          Basic introduction to HELICS language, installation instructions and anything else you
-          need to get started.
-        </p>
-        <p>
-          &raquo;
-          <a
-            alt=""
-            target="_blank"
-            href="https://docs.helics.org/en/latest/user-guide/installation/index.html"
-            >Installation</a
-          >
-          <br />
-          &raquo;
-          <a
-            alt=""
-            target="_blank"
-            href="https://docs.helics.org/en/latest/user-guide/fundamental_topics/helics_terminology.html"
-            >Terminology</a
-          >
-          <br />
-          &raquo;
-          <a
-            alt=""
-            target="_blank"
-            href="https://docs.helics.org/en/latest/user-guide/examples/fundamental_examples/fundamental_default.html"
-            >Base Example Co-Simulation</a
-          >
-          <br />
-          &raquo;
-          <a
-            alt=""
-            target="_blank"
-            href="https://beta.mybinder.org/v2/gh/kdheepak/openmod-2019-helics-tutorial/master?urlpath=lab/tree/notebooks/cosimulation-introduction.ipynb"
-            >Try HELICS online</a
-          >
-        </p>
+    <div class="grid grid-cols-3 space-x-6 my-2">
+      <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
+        <div class="p-6 flex flex-col justify-start">
+          <h4>Introduction</h4>
+          <p>
+            Basic introduction to HELICS language, installation instructions and anything else you
+            need to get started.
+          </p>
+          <p>
+            &raquo;
+            <a
+              alt=""
+              target="_blank"
+              href="https://docs.helics.org/en/latest/user-guide/installation/index.html"
+              >Installation</a
+            >
+            <br />
+            &raquo;
+            <a
+              alt=""
+              target="_blank"
+              href="https://docs.helics.org/en/latest/user-guide/fundamental_topics/helics_terminology.html"
+              >Terminology</a
+            >
+            <br />
+            &raquo;
+            <a
+              alt=""
+              target="_blank"
+              href="https://docs.helics.org/en/latest/user-guide/examples/fundamental_examples/fundamental_default.html"
+              >Base Example Co-Simulation</a
+            >
+            <br />
+            &raquo;
+            <a
+              alt=""
+              target="_blank"
+              href="https://beta.mybinder.org/v2/gh/kdheepak/openmod-2019-helics-tutorial/master?urlpath=lab/tree/notebooks/cosimulation-introduction.ipynb"
+              >Try HELICS online</a
+            >
+          </p>
+        </div>
       </div>
       <div>
+      <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
+        <div class="p-6 flex flex-col justify-start">
         <h4>User Guide</h4>
         <p>
           A user guide for HELICS. This assumes a familiarity with general programming concepts, and
@@ -85,8 +89,12 @@
             target="_blank">Co-Simulation Timing Configuration</a
           >
         </p>
+        </div>
+      </div>
       </div>
       <div>
+      <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
+        <div class="p-6 flex flex-col justify-start">
         <h4>API</h4>
         <p>
           Configuration options documentation for the
@@ -116,11 +124,15 @@
             >C++ Doxygen Documentation</a
           >
         </p>
+        </div>
+        </div>
       </div>
     </div>
-    <div class="grid grid-cols-2 space-x-6">
-      <div>
+    <div class="grid grid-cols-2 space-x-6 my-2">
+      <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
+        <div class="p-6 flex flex-col justify-start">
         <h4>Want to know more?</h4>
+          <p>
         &raquo;
         <strong>Looking for tutorials/code snippets?</strong> Check out our
         <a alt="" target="_blank" href="https://github.com/GMLC-TDC/HELICS-Examples"
@@ -145,9 +157,13 @@
         <a alt="" target="_blank" href="https://github.com/GMLC-TDC/HELICS"
           >our GitHub organization</a
         >.
+          </p>
       </div>
-      <div>
+      </div>
+      <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
+        <div class="p-6 flex flex-col justify-start">
         <h4>Additional Information</h4>
+          <p>
         &raquo;
         <a alt="" target="_blank" href="https://anaconda.org/gmlc-tdc/helics"
           >Use Conda to install HELICS for Python</a
@@ -169,6 +185,8 @@
         <a alt="" target="_blank" href="https://github.com/GMLC-TDC/HELICS.jl"
           >Try HELICS in Julia</a
         >.
+        </p>
+      </div>
       </div>
     </div>
   </div>
