@@ -12,14 +12,14 @@
 
 		<link rel="stylesheet" href="/_app/assets/start-d5b4de3e.css">
 		<link rel="stylesheet" href="/_app/assets/vendor-f9351f49.css">
-		<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-b83447cc.css">
-		<link rel="modulepreload" href="/_app/start-4cce986e.js">
-		<link rel="modulepreload" href="/_app/chunks/vendor-a01b4930.js">
-		<link rel="modulepreload" href="/_app/pages/__layout.svelte-6b3d9e0c.js">
-		<link rel="modulepreload" href="/_app/pages/about.svelte-2a1f1b39.js">
+		<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-a741bbad.css">
+		<link rel="modulepreload" href="/_app/start-eb58c545.js">
+		<link rel="modulepreload" href="/_app/chunks/vendor-224c3645.js">
+		<link rel="modulepreload" href="/_app/pages/__layout.svelte-1b5b8f02.js">
+		<link rel="modulepreload" href="/_app/pages/about.svelte-f80fa6d5.js">
 
 		<script type="module">
-			import { start } from "/_app/start-4cce986e.js";
+			import { start } from "/_app/start-eb58c545.js";
 			start({
 				target: document.querySelector("#svelte"),
 				paths: {"base":"","assets":""},
@@ -31,8 +31,8 @@
 					status: 200,
 					error: null,
 					nodes: [
-						import("/_app/pages/__layout.svelte-6b3d9e0c.js"),
-						import("/_app/pages/about.svelte-2a1f1b39.js")
+						import("/_app/pages/__layout.svelte-1b5b8f02.js"),
+						import("/_app/pages/about.svelte-f80fa6d5.js")
 					],
 					url: new URL("http://prerender/about"),
 					params: {}
@@ -50,13 +50,23 @@
     <div class="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent1"><a class="text-xl text-white pr-2 font-semibold" href="/">HELICS</a>
       
       <ul class="navbar-nav flex flex-col pl-0 list-style-none mr-auto"><li class="nav-item p-2"><a class="nav-link text-white opacity-60 hover:opacity-80 focus:opacity-80 p-0" href="/introduction">Getting Started</a></li>
-        <li class="nav-item p-2"><a class="nav-link text-white opacity-60 hover:opacity-80 focus:opacity-80 p-0" href="/tools">Showcase Tools</a></li>
+        <li class="nav-item p-2"><a class="nav-link text-white opacity-60 hover:opacity-80 focus:opacity-80 p-0" href="/tools">Showcase</a></li>
         <li class="nav-item p-2"><a class="nav-link text-white " href="/about">Team</a></li></ul>
       </div>
     
 
     
-    <div class="flex items-center relative space-x-4">
+    <div class="flex items-center relative space-x-6">
+      <a alt="docs" class="nav-link text-white opacity-60 hover:opacity-80 focus:opacity-80 p-0" target="_blank" href="https://docs.helics.org"><svg version="1.1" class="fa-icon  svelte-1dof0an" width="16" height="14.222222222222221" role="presentation" viewBox="0 0 576 512">
+    <path id="path-0" d="M542.22 32.05c-54.8 3.11-163.72 14.43-230.96 55.59-4.64 2.84-7.27 7.89-7.27 13.17v363.87c0 11.55 12.63 18.85 23.28 13.49 69.18-34.82 169.23-44.32 218.7-46.92 16.89-.89 30.02-14.43 30.02-30.66V62.75c.01-17.71-15.35-31.74-33.77-30.7zM264.73 87.64C197.5 46.48 88.58 35.17 33.78 32.05 15.36 31.01 0 45.04 0 62.75V400.6c0 16.24 13.13 29.78 30.02 30.66 49.49 2.6 149.59 12.11 218.77 46.95 10.62 5.35 23.21-1.94 23.21-13.46V100.63c0-5.29-2.62-10.14-7.27-12.99z"></path>
+      
+      
+  </svg></a>
+      <a alt="chat" class="nav-link text-white opacity-60 hover:opacity-80 focus:opacity-80 p-0" target="_blank" href="https://gitter.im/GMLC-TDC/HELICS/"><svg version="1.1" class="fa-icon  svelte-1dof0an" width="16" height="14.222222222222221" role="presentation" viewBox="0 0 576 512">
+    <path id="path-0" d="M416 192c0-88.4-93.1-160-208-160S0 103.6 0 192c0 34.3 14.1 65.9 38 92-13.4 30.2-35.5 54.2-35.8 54.5-2.2 2.3-2.8 5.7-1.5 8.7S4.8 352 8 352c36.6 0 66.9-12.3 88.7-25 32.2 15.7 70.3 25 111.3 25 114.9 0 208-71.6 208-160zm122 220c23.9-26 38-57.7 38-92 0-66.9-53.5-124.2-129.3-148.1.9 6.6 1.3 13.3 1.3 20.1 0 105.9-107.7 192-240 192-10.8 0-21.3-.8-31.7-1.9C207.8 439.6 281.8 480 368 480c41 0 79.1-9.2 111.3-25 21.8 12.7 52.1 25 88.7 25 3.2 0 6.1-1.9 7.3-4.8 1.3-2.9.7-6.3-1.5-8.7-.3-.3-22.4-24.2-35.8-54.5z"></path>
+      
+      
+  </svg></a>
       <a alt="download" class="nav-link text-white opacity-60 hover:opacity-80 focus:opacity-80 p-0" target="_blank" href="https://github.com/GMLC-TDC/HELICS/releases/latest"><svg version="1.1" class="fa-icon  svelte-1dof0an" width="16" height="16" role="presentation" viewBox="0 0 512 512">
     <path id="path-0" d="M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z"></path>
       
