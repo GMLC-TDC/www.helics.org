@@ -70,4 +70,30 @@
       {/each}
     </div>
   {/each}
+
+  <h2>Statistics</h2>
+  <h3>Badges</h3>
+  <div class="flex space-x-4">
+    <img
+      alt="GitHub all releases"
+      src="https://img.shields.io/github/downloads/GMLC-TDC/helics/total"
+    />
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/GMLC-TDC/HELICS" />
+    <img
+      alt="GitHub closed issues"
+      src="https://img.shields.io/github/issues-closed-raw/GMLC-TDC/HELICS"
+    />
+    <img
+      alt="GitHub pull requests"
+      src="https://img.shields.io/github/issues-pr-raw/GMLC-TDC/HELICS"
+    />
+    <img
+      alt="GitHub closed pull requests"
+      src="https://img.shields.io/github/issues-pr-closed-raw/GMLC-TDC/HELICS"
+    />
+    <img
+      alt="GitHub contributors"
+      src="https://img.shields.io/github/contributors-anon/GMLC-TDC/HELICS"
+    />
+  </div>
 </article>
