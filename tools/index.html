@@ -13,13 +13,13 @@
 		<link rel="stylesheet" href="/_app/assets/start-d5b4de3e.css">
 		<link rel="stylesheet" href="/_app/assets/vendor-f9351f49.css">
 		<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-83af17d5.css">
-		<link rel="modulepreload" href="/_app/start-937669ba.js">
+		<link rel="modulepreload" href="/_app/start-da4099af.js">
 		<link rel="modulepreload" href="/_app/chunks/vendor-94d1d6a2.js">
 		<link rel="modulepreload" href="/_app/pages/__layout.svelte-9c07edfe.js">
-		<link rel="modulepreload" href="/_app/pages/tools.svelte-39dfcebb.js">
+		<link rel="modulepreload" href="/_app/pages/tools.svelte-0a781b66.js">
 
 		<script type="module">
-			import { start } from "/_app/start-937669ba.js";
+			import { start } from "/_app/start-da4099af.js";
 			start({
 				target: document.querySelector("#svelte"),
 				paths: {"base":"","assets":""},
@@ -32,7 +32,7 @@
 					error: null,
 					nodes: [
 						import("/_app/pages/__layout.svelte-9c07edfe.js"),
-						import("/_app/pages/tools.svelte-39dfcebb.js")
+						import("/_app/pages/tools.svelte-0a781b66.js")
 					],
 					url: new URL("http://prerender/tools"),
 					params: {}
@@ -138,7 +138,14 @@
       Power Flow (OPF) solver. It is a port of MATPOWER to the Python programming language. Current
       features include:
       <ul class="list-circ"><li>DC and AC (Newton’s method &amp; Fast Decoupled) power flow and</li>
-        <li>DC and AC optimal power flow (OPF)</li></ul></li></ul>
+        <li>DC and AC optimal power flow (OPF)</li></ul></li>
+    <li><a href="https://docs.andes.app/en/latest/">ANDES</a> is an open-source Python library for power
+      system modeling, computation, analysis, and control. It supports power flows calculation, transient
+      stability simulation, and small-signal stability analysis for transmission systems.
+    </li>
+    <li><a href="https://www.pandapower.org/">pandapower</a> is an easy to use open source tool for power
+      system modeling, analysis and optimization with a high degree of automation.
+    </li></ul>
   <h4 id="real-time-simulators">Real time simulators</h4>
   <ul class="list-disc"><li><a href="https://www.opal-rt.com/hardware-in-the-loop/">OpalRT</a> A few projects are using HELICS
       to allow connections between Opal RT and other simulations.
