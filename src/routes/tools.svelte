@@ -91,6 +91,16 @@
         <li>DC and AC optimal power flow (OPF)</li>
       </ul>
     </li>
+    <li>
+      <a href="https://docs.andes.app/en/latest/">ANDES</a> is an open-source Python library for power
+      system modeling, computation, analysis, and control. It supports power flows calculation, transient
+      stability simulation, and small-signal stability analysis for transmission systems.
+    </li>
+    <li>
+      <a href="https://www.pandapower.org/">pandapower</a> is an easy to use open source tool for power
+      system modeling, analysis and optimization with a high degree of automation. It supports power
+      flow, optimal power flow, state estimation, short-circuit calculation and topological graph searches.
+    </li>
   </ul>
   <h4 id="real-time-simulators">Real time simulators</h4>
   <ul class="list-disc">
