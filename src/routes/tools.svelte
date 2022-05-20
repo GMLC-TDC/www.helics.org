@@ -101,6 +101,12 @@
       system modeling, analysis and optimization with a high degree of automation. It supports power
       flow, optimal power flow, state estimation, short-circuit calculation and topological graph searches.
     </li>
+    <li>
+      <a href="https://www.encoord.com/index.html">SAInt</a>, a tool for simulating quasi-dynamic AC-Optimal 
+      power flow that is designed for coupled simulation with natural gas networks.
+      <a href="https://www.encoord.com/CaseStudyHELICS.html">(use case overview)</a
+      >.
+    </li>
   </ul>
   <h4 id="real-time-simulators">Real time simulators</h4>
   <ul class="list-disc">
@@ -182,6 +188,12 @@
     <li><a href="https://www.gams.com/">GAMS</a></li>
     <li>
       <a href="https://www.juliaopt.org/">JuMP</a> support is provided through the HELICS Julia interface
+    </li>
+    <li>
+      <a href="https://www.encoord.com/index.html">SAInt</a>, a tool that provides transient hydraulic simulation of 
+      gas systems and that is designed for coupled simulation with electricity networks.
+      <a href="https://www.encoord.com/CaseStudyHELICS.html">(use case overview)</a
+      >.
     </li>
   </ul>
   <h3 id="transportation-modeling">Transportation modeling</h3>
