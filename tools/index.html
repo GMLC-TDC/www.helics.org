@@ -13,13 +13,13 @@
 		<link rel="stylesheet" href="/_app/assets/start-d5b4de3e.css">
 		<link rel="stylesheet" href="/_app/assets/vendor-f9351f49.css">
 		<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-83af17d5.css">
-		<link rel="modulepreload" href="/_app/start-6b687b0c.js">
+		<link rel="modulepreload" href="/_app/start-7fee5ce1.js">
 		<link rel="modulepreload" href="/_app/chunks/vendor-94d1d6a2.js">
 		<link rel="modulepreload" href="/_app/pages/__layout.svelte-9c07edfe.js">
-		<link rel="modulepreload" href="/_app/pages/tools.svelte-b646edc5.js">
+		<link rel="modulepreload" href="/_app/pages/tools.svelte-85c9a0ea.js">
 
 		<script type="module">
-			import { start } from "/_app/start-6b687b0c.js";
+			import { start } from "/_app/start-7fee5ce1.js";
 			start({
 				target: document.querySelector("#svelte"),
 				paths: {"base":"","assets":""},
@@ -32,7 +32,7 @@
 					error: null,
 					nodes: [
 						import("/_app/pages/__layout.svelte-9c07edfe.js"),
-						import("/_app/pages/tools.svelte-b646edc5.js")
+						import("/_app/pages/tools.svelte-85c9a0ea.js")
 					],
 					url: new URL("http://prerender/tools"),
 					params: {}
@@ -146,6 +146,10 @@
     <li><a href="https://www.pandapower.org/">pandapower</a> is an easy to use open source tool for power
       system modeling, analysis and optimization with a high degree of automation. It supports power
       flow, optimal power flow, state estimation, short-circuit calculation and topological graph searches.
+    </li>
+    <li><a href="https://www.encoord.com/index.html">SAInt</a>, a tool for simulating quasi-dynamic AC-Optimal 
+      power flow that is designed for coupled simulation with natural gas networks.
+      <a href="https://www.encoord.com/CaseStudyHELICS.html">(use case overview)</a>.
     </li></ul>
   <h4 id="real-time-simulators">Real time simulators</h4>
   <ul class="list-disc"><li><a href="https://www.opal-rt.com/hardware-in-the-loop/">OpalRT</a> A few projects are using HELICS
@@ -197,6 +201,10 @@
   <h3 id="optimization-packages">Optimization packages</h3>
   <ul class="list-disc"><li><a href="https://www.gams.com/">GAMS</a></li>
     <li><a href="https://www.juliaopt.org/">JuMP</a> support is provided through the HELICS Julia interface
+    </li>
+    <li><a href="https://www.encoord.com/index.html">SAInt</a>, a tool that provides transient hydraulic simulation of 
+      gas systems and that is designed for coupled simulation with electricity networks.
+      <a href="https://www.encoord.com/CaseStudyHELICS.html">(use case overview)</a>.
     </li></ul>
   <h3 id="transportation-modeling">Transportation modeling</h3>
   <ul class="list-disc"><li><a href="http://beam.lbl.gov/">BEAM.</a></li>
