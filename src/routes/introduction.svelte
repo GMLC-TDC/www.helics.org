@@ -152,7 +152,7 @@
             <a alt="" target="_blank" href="https://gitter.im/GMLC-TDC/HELICS"
               >gitter and get in touch</a
             >. We also have
-            <a alt="" target="_blank" href="HELICS office hours.ics" download
+            <a alt="" target="_blank" href="src/routes/HELICSOfficeHours.ics" download
               >regular office hours</a>
               where we answer questions and help with debugging.
             <br />&raquo;
