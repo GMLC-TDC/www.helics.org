@@ -1,0 +1,81 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:tzone://Microsoft/Utc
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN="Hardy, Trevor D":mailto:trevor.hardy@pnnl.gov
+DESCRIPTION:Open office hours with the HELICS development team to answer qu
+ estions and help with debugging.\n\n______________________________________
+ __________________________________________\nMicrosoft Teams meeting\nJoin 
+ on your computer\, mobile app or room device\nClick here to join the meeti
+ ng<https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTE3MzcyZWYtZDA0
+ MS00YzYxLTg1MjYtMTBkY2UyOTJkZTAz%40thread.v2/0?context=%7b%22Tid%22%3a%22d
+ 6faa5f9-0ae2-4033-8c01-30048a38deeb%22%2c%22Oid%22%3a%22aab5e6d3-1b77-4ae1
+ -8fb4-ac6ab2f71137%22%7d>\nMeeting ID: 256 495 450 599\nPasscode: FCDVzy\n
+ Download Teams<https://www.microsoft.com/en-us/microsoft-teams/download-ap
+ p> | Join on the web<https://www.microsoft.com/microsoft-teams/join-a-meet
+ ing>\nOr call in (audio only)\n+1 509-408-1681\,\,345070846#<tel:+15094081
+ 681\,\,345070846#>   United States\, Spokane\nPhone Conference ID: 345 070
+  846#\nFind a local number<https://dialin.teams.microsoft.com/662a8517-6df
+ 4-4f06-95d6-3fa3a86b45fd?id=345070846> | Reset PIN<https://dialin.teams.mi
+ crosoft.com/usp/pstnconferencing>\nLearn More<https://aka.ms/JoinTeamsMeet
+ ing> | Meeting options<https://teams.microsoft.com/meetingOptions/?organiz
+ erId=aab5e6d3-1b77-4ae1-8fb4-ac6ab2f71137&tenantId=d6faa5f9-0ae2-4033-8c01
+ -30048a38deeb&threadId=19_meeting_OTE3MzcyZWYtZDA0MS00YzYxLTg1MjYtMTBkY2Uy
+ OTJkZTAz@thread.v2&messageId=0&language=en-US>\n__________________________
+ ______________________________________________________\n
+RRULE:FREQ=WEEKLY;UNTIL=20231001T070000Z;INTERVAL=2;BYDAY=TH;WKST=SU
+UID:040000008200E00074C5B7101A82E008000000008376289EFD1AD901000000000000000
+ 01000000071B28743F1B6AC488F32F72B81150C1F
+SUMMARY:HELICS office hours
+DTSTART:20230112T190000Z
+DTEND:20230112T200000Z
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20221228T204738Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+LOCATION:
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:1
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_OTE3MzcyZWYtZDA0MS00YzYxLTg1MjYtMTBkY2UyOTJkZTAz%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%22d6faa5f9-0ae2-4033-8c01-30048a38deeb%22%2c%22O
+ id%22%3a%22aab5e6d3-1b77-4ae1-8fb4-ac6ab2f71137%22%7d
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_OTE3MzcyZWYtZDA0MS00YzY
+ xLTg1MjYtMTBkY2UyOTJkZTAz@thread.v2"\,"rid":0\,"mid":0\,"uid":null\,"priva
+ te":true\,"type":0}
+X-MICROSOFT-ONLINEMEETINGEXTERNALLINK:
+X-MICROSOFT-ONLINEMEETINGCONFLINK:conf:sip:trevor.hardy@pnnl.gov\;gruu\;opa
+ que=app:conf:focus:id:teams:2:0!19:meeting_OTE3MzcyZWYtZDA0MS00YzYxLTg1MjY
+ tMTBkY2UyOTJkZTAz-thread.v2!aab5e6d31b774ae18fb4ac6ab2f71137!d6faa5f90ae24
+ 0338c0130048a38deeb
+X-MICROSOFT-ONLINEMEETINGTOLLNUMBER:+1 509-408-1681
+X-MICROSOFT-ONLINEMEETINGCONFERENCEID:345070846
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"Onlin
+ eMeetingProvider":3}
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR

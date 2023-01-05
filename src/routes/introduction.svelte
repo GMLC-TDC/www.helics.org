@@ -151,7 +151,10 @@
             <strong>Want to ask a question?</strong> Come find us on
             <a alt="" target="_blank" href="https://gitter.im/GMLC-TDC/HELICS"
               >gitter and get in touch</a
-            >.
+            >. We also have
+            <a alt="" target="_blank" href="static/HELICSOfficeHours.ics" download
+              >regular office hours</a>
+              where we answer questions and help with debugging.
             <br />&raquo;
             <strong
               >Have a feature request or bug report? Want to make a contribution or provide
