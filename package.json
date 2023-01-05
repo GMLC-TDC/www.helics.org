@@ -29,7 +29,7 @@
     "gh-pages": "^3.2.3",
     "prettier": "^2.4.1",
     "prettier-plugin-svelte": "^2.4.0",
-    "svelte": "^3.55.0",
+    "svelte": "^3.44.0",
     "svelte-awesome": "^2.4.2",
     "svelte-check": "^2.2.6",
     "svelte-preprocess": "^4.10.1",
