@@ -25,6 +25,12 @@ jobs:
       - name: Build application
         run: npm run build
 
+      - name: Upload site as artifact
+        if: github.event_name != 'push'
+        uses: actions/upload-artifact@v4
+        with:
+          path: ./build
+
       - name: Deploy
         if: github.event_name == 'push'
         uses: peaceiris/actions-gh-pages@v3
