@@ -63,10 +63,11 @@
     </p>
     <p>
       General citation for HELICS:
+      <br>
       T. Hardy, B. Palmintier, P. Top, D. Krishnamurthy and J. Fuller,
        "HELICS: A Co-Simulation Framework for Scalable Multi-Domain Modeling and Analysis," in IEEE Access,
         doi: 10.1109/ACCESS.2024.3363615, available at 
-        <a href=https://ieeexplore.ieee.org/document/10424422><https://ieeexplore.ieee.org/document/10424422/a>
+        <a href=https://ieeexplore.ieee.org/document/10424422> https://ieeexplore.ieee.org/document/10424422 </a>
     </p>
     <h1 class="mt-4">Partner Laboratories</h1>
   </article>
