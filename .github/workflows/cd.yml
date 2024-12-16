@@ -1,6 +1,10 @@
 name: Deploy to github pages
 on:
+  workflow_dispatch:
   push:
+    branches:
+      - main
+  pull_request:
     branches:
       - main
 
@@ -10,10 +14,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: '16'
+          node-version: 20
 
       - name: Install dependencies
         run: npm install
@@ -21,7 +25,14 @@ jobs:
       - name: Build application
         run: npm run build
 
+      - name: Upload site as artifact
+        if: github.event_name != 'push'
+        uses: actions/upload-artifact@v4
+        with:
+          path: ./build
+
       - name: Deploy
+        if: github.event_name == 'push'
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
