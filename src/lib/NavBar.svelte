@@ -83,7 +83,7 @@
         alt="chat"
         class="nav-link text-white opacity-60 hover:opacity-80 focus:opacity-80 p-0"
         target="_blank"
-        href="https://gitter.im/GMLC-TDC/HELICS/"
+        href="https://matrix.to/#/#GMLC-TDC_HELICS:gitter.im"
       >
         <Icon data={faComments} />
       </a>

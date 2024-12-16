@@ -149,7 +149,7 @@
             section.
             <br />&raquo;
             <strong>Want to ask a question?</strong> Come find us on
-            <a alt="" target="_blank" href="https://gitter.im/GMLC-TDC/HELICS"
+            <a alt="" target="_blank" href="https://matrix.to/#/#GMLC-TDC_HELICS:gitter.im"
               >gitter and get in touch</a
             >. We also have
             <a alt="" target="_blank" href="https://helics.org/HELICSOfficeHours.ics" download
